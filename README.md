@@ -96,4 +96,5 @@ trainingData = [
     # ... 99 more questions.
 ]
 ```
-
+## Hope you like it.
+MIT Licensed / Open Source. Do what you want with it.
