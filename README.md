@@ -3,6 +3,7 @@ Tear is a simple tool that allows you to easily (<10 lines of code) and cheaply 
 
 ## Example Set-up / Movies
 ```python
+pip install TeaRoute
 API_KEY = "sk-xxx... ...xxx" # Currently, only OpenAI is supported.
 myRouter = Tear(API_KEY)
 ```
