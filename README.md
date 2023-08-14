@@ -97,4 +97,4 @@ trainingData = [
 ]
 ```
 ## Hope you like it.
-MIT Licensed / Open Source. Do what you want with it.
+MIT Licensed / Open Source. Do what you want with it. If you make something cool with it, let me know because I'd love to see it.
