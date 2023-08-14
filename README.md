@@ -1,5 +1,5 @@
-# Tear - Trainable, autonomous, efficient routing.
-Tear is a simple tool that allows you to easily (<10 lines of code) and cheaply (500,000/1$) control the flow of information through LLM chains via automated classification. It provides routing via two methods, LLMs and Embeddings. Furthermore, you can train an LLM on a set of question and use embeddings thereafter. Let's demonstrate this by creating a simple, easy router for movie related questions.
+# TeaRoute - Trainable, autonomous, efficient routing.
+TeaRoute is a simple tool that allows you to easily (~10 lines of code) and cheaply (500,000/1$) control the flow of information through LLM chains via automated classification. It provides routing via two methods, LLMs and Embeddings. Furthermore, you can train an LLM on a set of question and use embeddings thereafter. Let's demonstrate this by creating a simple, easy router for movie related questions.
 
 ## Example Set-up / Movies
 ```python
@@ -7,7 +7,7 @@ import TeaRoute # pip install TeaRoute
 API_KEY = "sk-xxx... ...xxx" # Currently, only OpenAI is supported.
 myRouter = Tear(pathToJSON, API_KEY) # You can make the path whatever, it will automatically be made for you.
 ```
-First, we will initialize a Tear instance.
+First, we will initialize a TeaRoute (Tear) instance.
 ```python
 buckets = {
     "Genre" : "Questions about the genre or genres of a movie (e.g. Is it a comedy? Is it a romantic comedy?",
@@ -97,4 +97,4 @@ trainingData = [
 ]
 ```
 ## Hope you like it.
-MIT Licensed / Open Source. Do what you want with it. If you make something cool with it, let me know because I'd love to see it.
+MIT Licensed / Open Source. Do what you want with it. If you make something cool with it, let me know because I'd like to see it.
