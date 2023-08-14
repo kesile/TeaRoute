@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: TeaRoute
+Version: 0.0.9
+Summary: Trainable, efficient, autonomous routing.
+Author: kesile
+Author-email: johncolekessler@gmail.com
+Keywords: python,ai,openai,chatgpt,routing,route
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+Trainable, efficient, autonomous routing for data flowing through LLMs
