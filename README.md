@@ -24,7 +24,12 @@ trainingData = [
     # ... 99 more questions.
 ]
 ```
-We will now create our training data. It can just be a list of questions.
+We will now create our training data. It can just be a list of questions. If you wish to label your training data, you can simply affix the name of the bucket in parentheses to the end. 
+```python
+unLabeled = "What genre is The Godfather?"
+labeled = "What genre is the Godfather? (Genre)"
+```
+I will add a more formalized system for this soon.
 ```python
 myRouter.addBuckets(buckets) # This will add the buckets (categories) to the router as available options.
 myRouter.wipe() # This is an optional step, but it will wipe any training data already written inside of the file.
